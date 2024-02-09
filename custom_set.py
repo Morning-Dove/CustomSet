@@ -20,7 +20,7 @@ class CustomSet:
 
     def clear(self): 
         for item in self.list:
-            return self.list.remove(item)
+            self.list.remove(item)
 
 
 def main():
